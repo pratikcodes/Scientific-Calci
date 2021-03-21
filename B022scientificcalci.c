@@ -9,6 +9,7 @@ int dot_product(int v_a[3], int v_b[3], int m1, int m2);
 int cross_product(int v_a[3], int v_b[3], int m1, int m2);
 int main() {
 	int ch,ch2,p1,q1,p2,q2,i,j,a[10][10],b[10][10],v_a[3]={0},v_b[3]={0},m1,m2;
+	print("Hi LOL");
 	float n1,n2;
 	do {
 		printf("1. COMP\n2. MATRIX\n3. VECTOR\n4. OFF\nYour choice: ");
